@@ -3,12 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
     <title>Calculator</title>
 </head>
 <body>
+    <div class="container">
+        <div class="center">
+            <form action="" id="Addition" class="col-md-4 border border-2 rounded p-4 my-5">
+                <h1>Calculator</h1>
+                <h2>Addition</h2>
+                <div class="form-group">
+                    <label for="numberOne">First Number</label>
+                    <input type="number" class="form-control" id="numberOne">
+                </div>
+
+                <div class="form-group">
+                    <label for="numberTwo">Second Number</label>
+                    <input type="number" class="form-control" id="numberTwo">
+                </div>
+
+                <button type="submit" class="btn btn-success my-3 w-100 btn-lg">Calculate</button>
+            </form>
+        </div>
+
+        <div class="center">
+            <div class="display">
+                <h3>Answer = <span class="answer"></span></h3>
+            </div>
+        </div>
+        <!-- Subtraction Calculator -->
+        <div class="center">
+            <form action="" id="Subtraction" class="col-md-4 border border-2 rounded p-4 my-5">
+                <h1>Calculator</h1>
+                <h2>Subtraction</h2>
+                <div class="form-group">
+                    <label for="numberOne">First Number</label>
+                    <input type="number" class="form-control" id="numberOneMinus">
+                </div>
+
+                <div class="form-group">
+                    <label for="numberTwo">Second Number</label>
+                    <input type="number" class="form-control" id="numberTwoMinus">
+                </div>
+
+                <button type="submit" class="btn btn-success my-3 w-100 btn-lg">Calculate</button>
+            </form>
+        </div>
+
+        <div class="center">
+            <div class="display">
+                <h3>Answer = <span class="answer1"></span></h3>
+            </div>
+        </div>
+    </div>
+    <!-- Multiplication Calculator -->
+    <div class="center">
+        <form action="" id="Multiplication" class="col-md-4 border border-2 rounded p-4 my-5">
+            <h1>Calculator</h1>
+            <h2>Multiplication</h2>
+            <div class="form-group">
+                <label for="numberOne">First Number</label>
+                <input type="number" class="form-control" id="numberOneMultiply">
+            </div>
+
+            <div class="form-group">
+                <label for="numberTwo">Second Number</label>
+                <input type="number" class="form-control" id="numberTwoMultiply">
+            </div>
+
+            <button type="submit" class="btn btn-success my-3 w-100 btn-lg">Calculate</button>
+        </form>
+    </div>
+
+    <div class="center">
+            <div class="display">
+                <h3>Answer = <span class="answer2"></span></h3>
+            </div>
+        </div>
+    </div>
+    <!-- Division Calculator -->
+    <div class="center">
+        <form action="" id="Division" class="col-md-4 border border-2 rounded p-4 my-5">
+            <h1>Calculator</h1>
+            <h2>Division</h2>
+            <div class="form-group">
+                <label for="numberOne">First Number</label>
+                <input type="number" class="form-control" id="numberOneDivide">
+            </div>
+
+            <div class="form-group">
+                <label for="numberTwo">Second Number</label>
+                <input type="number" class="form-control" id="numberTwoDivide">
+            </div>
+
+            <button type="submit" class="btn btn-success my-3 w-100 btn-lg">Calculate</button>
+        </form>
+    </div>
+
+    <div class="center">
+            <div class="display">
+                <h3>Answer = <span class="answer3"></span></h3>
+            </div>
+        </div>
+    </div>
+     <!-- Modulus Calculator -->
+     <div class="center">
+        <form action="" id="Modulus" class="col-md-4 border border-2 rounded p-4 my-5">
+            <h1>Calculator</h1>
+            <h2>Modulus</h2>
+            <div class="form-group">
+                <label for="numberOne">First Number</label>
+                <input type="number" class="form-control" id="numberOneModulo">
+            </div>
+
+            <div class="form-group">
+                <label for="numberTwo">Second Number</label>
+                <input type="number" class="form-control" id="numberTwoModulo">
+            </div>
+
+            <button type="submit" class="btn btn-success my-3 w-100 btn-lg">Calculate</button>
+        </form>
+    </div>
+
+    <div class="center">
+            <div class="display">
+                <h3>Answer = <span class="answer4"></span></h3>
+            </div>
+        </div>
+    </div>
     
 
 
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script> -->
 </body>
 </html>
